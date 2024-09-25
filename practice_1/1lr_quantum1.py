@@ -5,18 +5,11 @@ from kaleidoscope import bloch_sphere
 # цветовая карта от жёлтого к чёрному
 lsm = LinearSegmentedColormap.from_list('yellow_to_black', ["#ffff00", "#000000"])
 
-
 rz = [[0, np.sin(th), -np.cos(th)] for th in np.linspace(0, np.pi/2, 15)]
-
-
-ry = [[-np.cos(th), -np.sin(th), 0] for th in np.linspace(3*np.pi/2, np.pi, 15)]  # каждые π/40 радиан
-
-
+ry = [[-np.cos(th), -np.sin(th), 0] for th in np.linspace(3*np.pi/2, np.pi, 15)]
 rx = [[np.sin(th), np.cos(th), 0] for th in np.linspace(np.pi/2, np.pi, 15)]
 
-
 points = rz + ry + rx
-
 
 # изменение прозрачности от 1.0 до 0.75
 points_alpha = np.linspace(1.0, 0.75, len(points))
