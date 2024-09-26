@@ -10,7 +10,8 @@
 
 ## Практики 📖
 - [Изучение сферы Блоха и Q-сферы](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_1/README_practice_1.md)
-
+- [Основы работы c библиотекой Qiskit](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_2)
+- [Частичные измерения](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_3)
 
 ## Использование 🚀
 Вы можете запускать примеры кода и лабораторные работы локально, используя Pycharm или любую другую среду разработки Python.
