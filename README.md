@@ -9,14 +9,14 @@
 - Примеры кода на Python с использованием библиотек `Qiskit`, `Kaleidoscope` и других.
 
 ## Практики 📖
-- ✅[Изучение сферы Блоха и Q-сферы](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_1/README_practice_1.md) 
-- ✅[Основы работы c библиотекой Qiskit](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_2) 
-- ✅[Частичные измерения](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_3) 
-- ❓[Однокубитные гейты](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_4) 
-- ❓[Управляемые гейты](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_5) 
-- 📝[Преобразования Фурье](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_6) 
-- 📝[Квантовая оценка фазы](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_7) 
-- 📝[Квантовый алгоритм Гровера](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_8) 
+1. ✅[Изучение сферы Блоха и Q-сферы](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_1/README_practice_1.md) 
+2. ✅[Основы работы c библиотекой Qiskit](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_2) 
+3. ✅[Частичные измерения](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_3) 
+4. ❓[Однокубитные гейты](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_4) 
+5. ❓[Управляемые гейты](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_5) 
+6. ❓[Преобразования Фурье](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_6) 
+7. 📝[Квантовая оценка фазы](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_7) 
+8. 📝[Квантовый алгоритм Гровера](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_8) 
 ## Использование 🚀
 Вы можете запускать примеры кода и лабораторные работы локально, используя Pycharm или любую другую среду разработки Python.
 
