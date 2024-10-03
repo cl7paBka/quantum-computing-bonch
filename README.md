@@ -14,7 +14,7 @@
 3. ✅[Частичные измерения](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_3) 
 4. ❌[Однокубитные гейты](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_4) 
 5. ❌[Управляемые гейты](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_5) 
-6. ❓[Преобразования Фурье](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_6) 
+6. ❌[Преобразования Фурье](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_6) 
 7. 📝[Квантовая оценка фазы](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_7) 
 8. 📝[Квантовый алгоритм Гровера](https://github.com/cl7paBka/quantum-computing-bonch/blob/main/practice_8) 
 ## Использование 🚀
