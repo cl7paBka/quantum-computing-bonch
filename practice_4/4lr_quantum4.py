@@ -1,7 +1,6 @@
 from qiskit import QuantumCircuit, transpile
 from qiskit_aer import AerSimulator
-from qiskit.visualization import plot_histogram
-import numpy as np
+from qiskit.visualization import plot_histogram, circuit_drawer
 import matplotlib.pyplot as plt
 
 # Задача 4: Проверка унитарности гейта Адамара
@@ -10,6 +9,10 @@ qc_h = QuantumCircuit(1)
 # Применяем гейт Адамара дважды
 qc_h.h(0)
 qc_h.h(0)
+
+# Отображение схемы
+qc_h.draw(output='mpl')
+plt.show()
 
 # Определяем симулятор
 simulator = AerSimulator()
