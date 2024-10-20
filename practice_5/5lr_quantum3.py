@@ -1,33 +1,26 @@
 from qiskit import QuantumCircuit, transpile
-from qiskit_aer import AerSimulator
-from qiskit.visualization import plot_histogram, circuit_drawer
+from qiskit_aer import AerSimulator, Aer
+from qiskit.visualization import plot_histogram
 import matplotlib.pyplot as plt
 
-simulator = AerSimulator()
+# Создание квантовой схемы для выполнения операции XOR (⨁)
+qc = QuantumCircuit(2, 1)  # 2 кубита и 1 классический бит
 
-# Инициализация схемы для XOR
-qc_xor = QuantumCircuit(2, 1)
+# Применение операции CNOT для реализации XOR (x1 ⨁ x2)
+qc.cx(0, 1)  # CNOT (контроль на 0, таргет на 1)
+qc.measure(1, 0)  # Измерение кубита 1 и запись результата в классический бит
 
-# Применение CNOT гейта для реализации XOR
-qc_xor.cx(0, 1)
-
-# Измерение второго кубита
-qc_xor.measure(1, 0)
-
-# Транспиляция схемы
-compiled_circuit_xor = transpile(qc_xor, simulator)
-
-# Вывод схемы на экран
-circuit_drawer(qc_xor, output='mpl')
-plt.show()
+# Транспиляция схемы для симулятора
+simulator = AerSimulator()  # Новый симулятор из qiskit_aer
+transpiled_qc = transpile(qc, simulator)
 
 # Выполнение симуляции
-job_xor = simulator.run(compiled_circuit_xor, shots=1024)
-result_xor = job_xor.result()
+result = simulator.run(transpiled_qc).result()
 
-# Результаты измерений
-counts_xor = result_xor.get_counts(compiled_circuit_xor)
+# Получение результатов измерений
+counts = result.get_counts()
 
-# Построение гистограммы
-plot_histogram(counts_xor)
+# Построение схемы и гистограммы
+qc.draw('mpl')
+plot_histogram(counts)
 plt.show()
