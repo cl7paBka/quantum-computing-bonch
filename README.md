@@ -24,7 +24,7 @@
 - 🔨4 Лабараторная работа **— Разработка**
 - 🔨5 Лабараторная работа **— Разработка**
 - 🔨6 Лабараторная работа **— Разработка**
-- 🔨7 Лабараторная работа **— Разработка**
+- 🔨7 [Лабараторная работа **— Разработка**](https://colab.research.google.com/drive/1NrcLa9ZTHZU2HX85w5IQhBdzrTFCysrP?usp=sharing)
 - 🔨8 [Лабараторная работа **— Разработка**](https://colab.research.google.com/drive/1fweD7ciXdUW5twnN5L-NoI5ejqrg-Y48?usp=sharing) 
 - 🔨9 Лабараторная работа **— Разработка**
 
